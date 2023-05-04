@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "mc-221824",
+  "version": "${version}",
+  "name": "MC-221824",
+  "description": "Fixes MC-221824",
+  "authors": [
+    "Allink"
+  ],
+  "contact": {
+    "homepage": "https://bugs.mojang.com/browse/MC-221824",
+    "sources": "https://github.com/allinkdev/MC-221824",
+    "issues": "https://github.com/allinkdev/MC-221824/issues"
+  },
+  "license": "UNLICENSE",
+  "environment": "*",
+  "mixins": [
+    "mc-221824.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  }
+}
