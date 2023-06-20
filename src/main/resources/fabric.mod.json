@@ -13,7 +13,7 @@
     "issues": "https://github.com/allinkdev/MC-221824/issues"
   },
   "license": "UNLICENSE",
-  "environment": "*",
+  "environment": "client",
   "mixins": [
     "mc-221824.mixins.json"
   ],
